@@ -1,0 +1,9 @@
+<launch>
+
+	<param name="SubTopic0" value="/sub_topic0" />
+	<param name="PubTopic0" value="/pub_topic0" />
+	<param name="SubTopic1" value="/sub_topic1" />
+	<param name="PubTopic1" value="/pub_topic1" />
+	<node pkg="subpuber" type="subpuber_node" name="subpuber_node" output="screen"/>
+
+</launch>
